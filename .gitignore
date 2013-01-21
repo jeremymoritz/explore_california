@@ -1,0 +1,10 @@
+tempfile.txt
+# Comment
+.DS_Store
+*.gz
+*.zip
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4 # this tells git that it will NOT ignore videos that follow this pattern
